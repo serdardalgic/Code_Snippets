@@ -1,6 +1,10 @@
 C Examples
 ==========
 
+Compile those source codes with
+
+    gcc -g sourceFile.c -o sourceFile
+
 Learning C with GDB examples 
 ----------------------------
 https://www.hackerschool.com/blog/5-learning-c-with-gdb
