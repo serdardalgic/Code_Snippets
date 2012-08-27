@@ -5,7 +5,7 @@ Learning C with GDB examples
 ----------------------------
 https://www.hackerschool.com/blog/5-learning-c-with-gdb
 
-arrays.c
+arrays.c   
 minimal.c
 
 The Ksplice Pointer Challenge
