@@ -10,6 +10,6 @@ Various Code Snippets on different topics about Python
     cost of readability of namedtuples over dict's integer index.
 
 2. [mmap]
-   (mmap/README)
+   (mmap)
 
    Examples on how to use mmap module in python. Includes reading, writing (using slices and only in memory a.k.a. ACCESS_COPY) and regex finds. The example comes from [PYMOTW article on mmap](http://pymotw.com/2/mmap/).
