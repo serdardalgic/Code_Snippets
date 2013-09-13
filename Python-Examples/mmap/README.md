@@ -17,7 +17,15 @@ Regular Expressions
 ------
 [mmap_regex.py](mmap_regex.py)
 
+Shared Memory Reading Writing Example
+------
+See http://blog.schmichael.com/2011/05/15/sharing-python-data-between-processes-using-mmap/ for details.
+
+1. Writing on the shared memory [shared_memory_write.py](shared_memory_write.py)
+1. Reading from the shared memory [shared_memory_read.py](shared_memory_read.py)
+
 Further articles on mmap
 ------
-  * http://blog.schmichael.com/2011/05/15/sharing-python-data-between-processes-using-mmap/
+  * 
   * http://effbot.org/librarybook/mmap.htm
+
