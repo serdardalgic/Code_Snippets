@@ -13,3 +13,12 @@ Various Code Snippets on different topics about Python
    (mmap)
 
    Examples on how to use mmap module in python. Includes reading, writing (using slices and only in memory a.k.a. ACCESS_COPY) and regex finds. The example comes from [PYMOTW article on mmap](http://pymotw.com/2/mmap/).
+
+3. **Sorting**
+
+    Code snippets demonstrating various sorting algorithms implemented in
+    Python. See [tests.py](tests.py) for written tests.
+
+  1. [merge_sort]
+     (merge_sort.py)
+

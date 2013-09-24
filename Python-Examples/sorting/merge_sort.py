@@ -1,4 +1,8 @@
 def merge_sort(unsorted_list):
+    """
+    Top-down implementation of Merge-sort
+    #http://en.wikipedia.org/wiki/Merge_sort#Top-down_implementation
+    """
     if len(unsorted_list) <= 1:
         return unsorted_list
     middle = len(unsorted_list) / 2
