@@ -7,12 +7,7 @@ by "$" sign.
 This script assumes the file is line-based.
 """
 
-from utils import get_filename
-
-
-def calculate_len_of_strs(splitted_list):
-    return ' '.join(str(lngth) for lngth in map(len, splitted_list))
-
+from utils import get_filename, calculate_len_of_strs
 
 if __name__ == '__main__':
     # GRAB FILENAME
@@ -23,4 +18,6 @@ if __name__ == '__main__':
     # Best way to deal with the big files is using "with open" methodology.
     with open(filename) as bigfile:
         for line in bigfile:
-            print calculate_len_of_strs(line.strip().split('$'))
+            # It trims the trailing whitespaces and splits the line
+            # with the seperator '$'
+            print calculate_len_of_strs(line.rstrip().split('$'))

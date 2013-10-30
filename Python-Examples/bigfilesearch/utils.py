@@ -23,3 +23,19 @@ def get_filename():
     else:
         print_help()
         sys.exit(-1)
+
+
+def calculate_len_of_strs(splitted_list):
+    return ' '.join(str(lngth) for lngth in map(len, splitted_list))
+
+
+def read_in_chunks(f_obj, chunk_size=3 * 4096):
+    """
+    Lazy function(Iterator) to read a file piece by piece
+    with default chunk size 3 * 4K = 12K.
+    """
+    while True:
+        data = f_obj.read(chunk_size)
+        if not data:
+            break
+        yield data
