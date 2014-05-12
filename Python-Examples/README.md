@@ -22,3 +22,9 @@ Various Code Snippets on different topics about Python
   1. [merge_sort]
      (merge_sort.py)
 
+4. Requests - Requests-futures
+    
+    A small example in terms of demonstrating the parallelization of
+    requests-futures package.
+    [Syncronous example](requests/synchronous_code.py) using plain requests and [Asyncronous
+    example](requests/asynchronous_code.py) using requests-futures
